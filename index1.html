@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ServiceNow Engagement Messenger POC</title>
+<style>
+body {
+font-family: Arial;
+text-align: center;
+margin-top: 100px;
+background-color: #f5f7fb;
+}
+</style>
+</head>
+
+<body>
+<h1>Welcome to Demo Client Portal</h1>
+<p>This website simulates an external customer portal.</p>
+<p>Chat with us using the widget at the bottom right.</p>
+<script src="https://dev210047.service-now.com/scripts/sn_csm_ec.js?v=5.6"></script>
+<script>
+SN_CSM_EC.init({
+	moduleID: "https://dev210047.service-now.com/#b666bbd4c3944310a8b171edd40131f7",
+	loadFeature: SN_CSM_EC.loadEMFeature()
+});
+</script>
+
+</body>
+</html>
